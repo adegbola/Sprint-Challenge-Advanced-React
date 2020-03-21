@@ -31,3 +31,28 @@
     transform: rotate(360deg);
   }
 }
+
+.theme-button {
+  border       : 1px solid black;
+  border-radius: 30px;
+  padding      : 5px;
+  margin       : 10px 0px;
+  transition   : 3s;
+}
+
+.theme-button:hover {
+  color           : white;
+  background-color:  rgba(14, 12, 12, 0.055);
+  font-weight     : bold;
+ 
+}
+
+.dark-mode {
+  color           : #fff;
+  background-color: #313841;
+}
+
+.dark-mode .navbar {
+  background-color: rgba(47, 32, 32, 0.055);
+  border          : none;
+}
